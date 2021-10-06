@@ -27,8 +27,8 @@ plt.       (year, twitter, label = 'Twitter', marker = 'o')
 plt.title("Number of people using social media platforms, 2010 to 2019")
 
 # Set the labels for x and y-axes
-plt.xlabel("Population in bilion")
-plt.ylabel("Year")
+plt.xlabel("Year")
+plt.ylabel("Population in bilion")
 
 # Show labels with legend
 plt.legend()
