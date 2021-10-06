@@ -4,15 +4,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the csv file into dataframe 'df'
-df = pd.read_csv(filepath_or_buffer = "           ")
+df = pd.read_csv(filepath_or_buffer = "                       ")
 
 # Print the dataset and observe the values
 print(df)
 
 # Extract the column values from dataframe 'df' 
-country_name = df['            ']
-fully_vaccinated = df['              ']
-partly_vaccianated = df['               ']
+country_name = df['Country']
+fully_vaccinated = df['Fully_Vaccinated']
+partly_vaccianated = df['              ']
 
 # Set values for x-axis
 bar_1 = np.arange(len(country_name))
@@ -21,10 +21,10 @@ bar_1 = np.arange(len(country_name))
 plt.figure(figsize = (16, 9))
 
 # Plot the bar graphs for share of people fully vaccinated against COVID-19
-plt.barh(y =            , width =               , label = 'Fully Vaccinated (Both doses administered)')
+plt.      (y = country_name, width = fully_vaccinated, label = 'Fully Vaccinated (Both doses administered)')
 
 # Plot the bar graphs for share of people only partly vaccinated against COVID-19
-plt.barh(y =            , width =               , label = 'Partly Vaccianated (One dose administered)')
+plt.barh(y =              , width =                , label = 'Partly Vaccianated (One dose administered)')
 
 # Set the title of the graph
 plt.title("Share of people vaccinated against COVID-19 in top 10 countries with highest population")
