@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the csv file into dataframe 'df'
-df = pd.read_csv(filepath_or_buffer = "                       ")
+df = pd.read_csv(filepath_or_buffer = "https://github.com/whjr2021/DV-with-Python/blob/main/SA1_covid_vaccinations.csv?raw=true")
 
 # Print the dataset and observe the values
 print(df)
