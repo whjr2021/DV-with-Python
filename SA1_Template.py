@@ -9,9 +9,11 @@ df = pd.read_csv(filepath_or_buffer = "https://github.com/whjr2021/DV-with-Pytho
 # Print the dataset and observe the values
 print(df)
 
-# Extract the column values from dataframe 'df' 
+# Extract the columns 'Country' and 'Fully_Vaccinated' from dataframe 'df' 
 country_name = df['Country']
 fully_vaccinated = df['Fully_Vaccinated']
+
+# Extract the column 'Partly_Vaccinated' from  dataframe 'df' and store in 'partly_vaccianated' 
 partly_vaccianated = df['              ']
 
 # Set values for x-axis
