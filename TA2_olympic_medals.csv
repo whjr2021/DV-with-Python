@@ -1,5 +1,5 @@
 Country_Name,Gold,Silver,Bronze,Total_Medals
-United States of America,39,41,33,113
+USA,39,41,33,113
 Republic of China,38,32,18,88
 Japan,27,14,17,58
 Great Britain,22,21,22,65
@@ -86,7 +86,7 @@ Mexico,0,0,4,4
 Finland,0,0,2,2
 Botswana,0,0,1,1
 Burkina Faso,0,0,1,1
-Côte d'Ivoire,0,0,1,1
+CÃ´te d'Ivoire,0,0,1,1
 Ghana,0,0,1,1
 Grenada,0,0,1,1
 Kuwait,0,0,1,1
